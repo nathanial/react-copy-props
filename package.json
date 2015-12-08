@@ -1,0 +1,22 @@
+{
+  "name": "react-copy-props",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nathanial/react-copy-props.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nathanial/react-copy-props/issues"
+  },
+  "homepage": "https://github.com/nathanial/react-copy-props#readme",
+  "dependencies" : {
+    "underscore": "1.8.3",
+  }
+}
