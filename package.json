@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/nathanial/react-copy-props#readme",
   "dependencies" : {
-    "underscore": "1.8.3",
+    "underscore": "1.8.3"
   }
 }
