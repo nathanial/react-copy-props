@@ -1,11 +1,11 @@
-import _ from 'underscore';
+var _ = require('underscore');
 
-export default function copyProps(Element, props){
-  const result = {};
-  for(let key of _.keys(Element.propTypes)){
+module.exports = function copyProps(Element, props){
+  var result = {};
+  _.each(_.keys(Element.propTypes), function(key){
     if(!_.isUndefined(props[key])){
       result[key] = props[key];
     }
-  }
+  });
   return result;
 };
